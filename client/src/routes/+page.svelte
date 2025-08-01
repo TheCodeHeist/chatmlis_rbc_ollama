@@ -45,10 +45,13 @@
 </script>
 
 <main class="h-screen w-full flex flex-col items-center">
-	<header class="flex items-center justify-between py-4 px-8 fixed top-0 w-full">
-		<div class="flex md:flex-row flex-col justify-center md:gap-4">
+	<header
+		class="flex items-center justify-between py-4 px-8 fixed top-0 w-full bg-background z-10 shadow-md"
+	>
+		<div class="flex justify-center items-center gap-4">
+			<img src="/maplemate_logo.png" alt="MapleMate Logo" class="w-12 h-12" />
 			<p class="lg:text-3xl md:text-2xl text-xl font-semibold text-primary">MapleMate</p>
-			<Badge variant="secondary">by MLIS Robotics Club</Badge>
+			<Badge variant="secondary" class="hidden lg:block">by MLIS Robotics Club</Badge>
 		</div>
 
 		<div class="flex items-center gap-4">
@@ -71,7 +74,10 @@
 		class="h-full md:w-3/4 w-full flex items-center justify-center flex-col gap-8 py-32 px-8 overflow-hidden"
 	>
 		{#if chatHistory.length === 0}
-			<p class="lg:text-xl text-2xl text-center">How can I assist you today?</p>
+			<div class="flex flex-col items-center gap-4">
+				<img src="/maplemate_logo.png" alt="MapleMate Logo" class="w-28 h-28" />
+				<p class="lg:text-xl text-2xl text-center">How can I assist you today?</p>
+			</div>
 		{/if}
 
 		<!-- Chats -->

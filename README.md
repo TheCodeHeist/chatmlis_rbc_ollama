@@ -1,5 +1,7 @@
 # MapleMate by MLIS Robotics Club
 
+<img src="https://raw.githubusercontent.com/TheCodeHeist/maplemate_mlisrbc/refs/heads/main/client/static/maplemate_logo.png" alt="MapleMate Logo" width="200">
+
 ## Overview
 
 MapleMate is a personalised AI assistant, built by MLIS Robotics Club of Maple Leaf International School, Dhaka. It is based on Google's Gemma3 model from Ollama, designed to assist with various tasks such as answering questions, providing information, and engaging in conversations. It is being gradually tailored to give students and teachers a helpful tool for various academic and administrative tasks, and assist with their learning and teaching processes and be insync with the school.
