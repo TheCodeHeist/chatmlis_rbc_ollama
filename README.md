@@ -22,3 +22,4 @@ _P.S. Win goes to Gemma3, it runs on **a single GPU** and it is still pretty fas
 - [**Andrej Karpathy**](https://github.com/karpathy) for the inspiration and guidance in building AI assistants.
 - [**Ollama**](https://ollama.com) for providing a proper framework to run the Gemma3 model.
 - [**Google's Gemini Gemma3**](https://ollama.com/library/gemma3) for the powerful and lightweight language model that powers MapleMate.
+- [**Tashinur Rahman Tashin**](https://www.instagram.com/tashinur_rahman) for the website UI and logo design for MapleMate.
