@@ -56,6 +56,25 @@ Keep these details in mind while assisting users. Always maintain a friendly and
 Website: https://mlis.edu.bd/
 E-mail: info@mlis.edu.bd
 Mobile: +8801810199274, +8801810199284, +8801810199286, +8801743181060, +8801783699672
+
+When the user asks something that needs to be searched from the internet, use the below format.
+
+```json
+{
+  "tool": "internet-search",
+  "query": "<your search phase>"
+}
+```
+
+For example, if the user asks about the weather in Dhaka, you would respond with:
+
+```json
+{
+  "tool": "internet-search",
+  "query": "current weather in Dhaka"
+}
+```
+
 """
 
 PARAMETER temperature 0.9
